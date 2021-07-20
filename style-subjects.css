@@ -1,0 +1,58 @@
+@import url("style-header-footer.css");
+
+*{
+	font-family: var(--font-body);
+	color: var(--font-body-color);
+}
+
+.subjects{
+	padding: 20px;
+	margin: auto;
+}
+
+.subjects h3{
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+	font-size: 1.7em;
+}
+
+.subjects iframe{
+	width: 100%;
+	height: 50vmax;
+	margin: 10px 0;
+}
+
+.subjects a{
+	margin: 10px 5px 10px 0;
+	color: var(--font-head-color);
+	text-decoration: none;
+}
+
+.subjects a:hover{
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 767px){
+
+	.subjects{
+		width: 85%;
+	}
+
+	.subjects iframe{
+		width: 43%;
+		height: 30vmax;
+		margin: 20px;
+	}
+
+	.subjects a{
+		margin: 20px 5px 20px 20px;
+	}
+
+}
+
+@media screen and (min-width: 1223px){
+
+	.subjects{
+		width: 73%;
+	}
+}

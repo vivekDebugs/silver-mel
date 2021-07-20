@@ -1,0 +1,50 @@
+@import url("style-header-footer.css");
+
+*{
+	font-family: var(--font-body);
+	color: var(--font-body-color)
+}
+
+.publications{
+	padding: 20px;
+	margin: 0 auto;
+}
+
+h3, h4{
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+}
+
+.publications b{
+	font-weight: 400;
+	color: var(--font-head-color);
+}
+
+.publications ol{
+	padding: 0 0 0 20px;
+}
+
+.publications ol li{
+	margin: 20px 0;
+}
+
+@media screen and (min-width: 767px){
+
+	.publications{
+		width: 85%;
+	}
+
+	.publications ol{
+		padding: 0 0 0 40px;
+	}
+
+}
+
+@media screen and (min-width: 1223px){
+
+	.publications{
+		width: 73%;
+	}
+
+}
+

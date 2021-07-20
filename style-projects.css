@@ -1,0 +1,47 @@
+@import url("style-header-footer.css");
+
+*{
+	color: var(--font-body-color);
+	font-family: var(--font-body);
+}
+
+h2, th{
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+}
+
+table{
+	border-collapse: collapse;
+}
+
+tr, td, th{
+	border-bottom: 1px solid #f5f5f5;
+	text-align: left;
+	vertical-align: top;
+	padding: 10px;
+}
+
+td:nth-child(1){
+	color: var(--font-head-color);
+}
+
+.projects-table{
+	padding: 10px;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 767px){
+
+	.projects-table{
+		width: 85%;
+	}
+
+}
+
+@media screen and (min-width: 1223px){
+
+	.projects-table{
+		width: 73%;
+	}
+
+}

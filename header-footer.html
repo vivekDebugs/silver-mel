@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dr. Vidyadhar SM: Projects</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/ >
+	<link rel="icon" href="images/logo.png">
+	<link rel="stylesheet" type="text/css" href="style-header-footer.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<div class="toggle">
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
+		</div>
+		<ul class="menu-items">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="subjects.html">Current Subjects</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="projects.html">Projects</i></a></li>
+			<li><a href="research-interests.html">Reserach Interests</a></li>
+			<li><a href="institution.html">Institution</a></li>
+			<li><a href="community-services.html">Community Services</a></li>
+			<li><a href="resources.html">Resourses</a></li>
+			<li><a href="contact.html">Contact me</a></li>
+		</ul>		
+	</nav>
+
+	<div class="footer">
+		<p>&copy; 2020 - Developed by <a href="https://kumar-vivek.000webhostapp.com/" target="_blank">Vivek Kumar</a> <br> All rights Reserved</p>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".menu").click(function(){
+				$(".menu-items").toggleClass("toggle-active");
+				$(".toggle").toggleClass("cut");
+			})
+		})
+	</script>
+</body>
+</html>

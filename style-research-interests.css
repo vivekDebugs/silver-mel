@@ -1,0 +1,69 @@
+@import url("style-header-footer.css");
+
+*{
+	font-family: var(--font-body);
+	color: var(--font-body-color);
+}
+
+.research-interests{
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.research-interests h3{
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+}
+
+.research-interests b{
+	font-weight: 400;
+	color: var(--font-head-color);
+}
+
+.research-interests ul{
+	padding: 0 0 0 20px;
+}
+
+.research-interests ul li{
+	list-style-type: square;
+	margin: 20px 0;
+}
+
+#reasearch-projects{
+	padding: 0 0 0 20px;
+}
+
+#reasearch-projects li{
+	margin: 20px 0;
+}
+
+#reasearch-projects h4{
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+@media screen and (min-width: 767px){
+
+	.research-interests{
+		width: 85%;
+	}
+
+	.research-interests ul{
+		padding: 0 0 0 40px;
+	}
+
+	#reasearch-projects{
+		padding: 0 0 0 40px;
+	}
+
+}
+
+@media screen and (min-width: 1223px){
+
+	.research-interests{
+		width: 73%;
+	}
+
+}

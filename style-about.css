@@ -1,0 +1,57 @@
+@import url("style-header-footer.css");
+
+.about-content{
+	font-family: var(--font-body);
+	color: var(--font-body-color);
+	padding: 20px;
+	margin: 0 auto; 
+}
+
+.about-content h3{
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+}
+
+.about-content ul{
+	padding: 0 0 0 20px;
+}
+
+.about-content ul li{
+	list-style-type: square;
+	margin: 20px 0;
+}
+
+.about-content ul li b{
+	font-weight: 400;
+	color: var(--font-head-color);
+}
+
+.summary{
+	font-size: 20px;
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+}
+
+#exp li b{
+	line-height: 28px;
+}
+
+@media screen and (min-width: 767px){
+
+	.about-content{
+		width: 85%;
+	}
+
+	.about-content ul{
+		padding: 0 0 0 40px;
+	}
+
+}
+
+@media screen and (min-width: 1223px){
+
+	.about-content{
+		width: 73%;
+	}
+
+}

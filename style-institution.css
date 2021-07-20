@@ -1,0 +1,131 @@
+@import url('style-header-footer.css');
+
+/* Site Intro CSS*/
+
+		.inst-intro {
+		  height: 100vh;
+		  width: 100vw;
+
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+
+		  z-index: 999;
+
+		  background: hsla( 0, 0%, 100%, .95); 
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+
+		  animation: vanish 4s forwards;
+		}
+
+		.inst-intro-text {
+			font-family: Montserrat,sans-serif;
+			font-size: 45px;
+			font-weight: 700;
+			color: #272341;
+
+			padding: 20px;
+		}		
+
+		.inst-intro-text #bounce{
+			display: inline-block;
+			animation: bounce 3s infinite;
+			transform-origin: bottom;
+		}
+
+		.inst-intro-text span{
+			background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+			-webkit-background-clip: text;
+    		-webkit-text-fill-color: transparent;
+		}
+
+		@keyframes vanish{
+			0%, 80%{
+				opacity: 1;
+			}
+			100%{
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+
+		@keyframes bounce{
+			50%{
+				transform: translateY(-15px);
+			}
+			100%{
+				transform: translateY(0px);
+			}
+		}
+
+*{
+	font-family: var(--font-body);
+	color: var(--font-body-color)
+}
+
+.institution{
+	padding: 20px;
+	margin: 0 auto;
+}
+
+h3, h4{
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+}
+
+.inst-summary, .int-line{
+	font-size: 20px;
+	font-family: var(--font-head);
+	color: var(--font-head-color);
+}
+
+.int-line{
+	font-size: 16px;
+}
+
+.services{
+	padding: 0 0 0 20px;
+}
+
+.services li{
+	margin: 10px 0;
+}
+
+.services li b{
+	color: var(--font-head-color);
+}
+
+.contact{
+	margin: 30px 0;
+}
+
+.contact p{
+	color: var(--font-head-color);
+	line-height: 24px;
+}
+
+@media screen and (min-width: 767px){
+
+	.institution{
+		width: 85%;
+	}
+
+	.services{
+		padding: 0 0 0 40px;
+	}
+
+	.inst-intro-text {
+		font-size: 56px;
+	}
+
+}
+
+@media screen and (min-width: 1223px){
+
+	.institution{
+		width: 73%;
+	}
+
+}

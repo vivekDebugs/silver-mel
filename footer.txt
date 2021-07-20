@@ -1,0 +1,1 @@
+document.write(' <div class="footer"> <p>&copy; 2018 - Developed by <a href="https://www.linkedin.com/in/vivekkumar1503/" target="_blank">Vivek Kumar</a> <br> All rights Reserved</p> </div>')
